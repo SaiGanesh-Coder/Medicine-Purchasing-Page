@@ -200,16 +200,20 @@
 
 .nav > ul li,
 .nav > ul li a {
-    margin: 10px 15px;
     align-items: center;
     display: flex;
     cursor: pointer;
     text-decoration: none;
+    padding: 10px 15px;
+    
 }
 
 .nav ul li p{
     margin-left: 5px;
     font-size: 14px;
+}
+.nav ul li p:hover{
+    color: #C42121;
 }
 
 /*-------search bar-----------*/

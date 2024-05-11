@@ -529,13 +529,7 @@ function createFeatureBrandList(list, container) {
 
 function createProductBannerList(list, container) {
     list.forEach(function (el) {
-        let div = document.createElement("div");
-        let div2 = document.createElement("div");
-        let img = document.createElement("img");
-        let name = document.createElement("h4");
-        let discount = document.createElement("h4");
-        let description = document.createElement("p");
-        let price = document.createElement("h4");
+  
 
         if (typeof el.discount == "number") {
             discount.innerText = el.discount + "% OFF";
